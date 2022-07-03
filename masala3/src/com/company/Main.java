@@ -7,10 +7,6 @@ public class Main {
     }
 
     public static void shifrlash(String str) {
-        str.replaceAll("f", "y");
-        str.replaceAll("l", "a");
-        str.replaceAll("j", "o");
-
         char[] chars = str.toCharArray();
         String s = "";
         for (int i = 0; i < chars.length; i++) {
